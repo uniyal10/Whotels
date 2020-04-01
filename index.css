@@ -42,10 +42,13 @@ ul li a:hover{
 	max-width: 1200px;
 	margin: auto;
 }
+#main text{
+	display: flex;
+}
 .title{
 	position: absolute;
-	top: 40%;
-	left: 60%;
+	top: 50%;
+	left: 65%;
 	transform: translate(-50%,-50%);
 }
 .title h1{
@@ -53,11 +56,10 @@ ul li a:hover{
 	font-size: 50px;
 }
 .button{
-	position: absolute;
-	top: 60%;
-	left: 50%;
 	transform: translate(-50%,-50%);
-
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 80px;
 }
 .btn{
 	border: 1px solid #fff;
@@ -73,8 +75,8 @@ ul li a:hover{
 }
 .form{
 	position: absolute;
-	top: 28%;
-	left: 20%;
+	top: 23%;
+	left: 22%;
     width:auto;
 }
 .form th,td{
@@ -103,14 +105,12 @@ input[type=submit]:hover{
 
 	
 }
-input[type=text]{
+input[type=date]{
 	 width: 100%;
-  padding: 5px 10px;
+ 
   margin: 5px 0;
   
   border: 1px solid #ccc;
   box-sizing: border-box;
-
-
 }
  
